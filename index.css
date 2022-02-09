@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+.navbar{
+    color: black;
+    
+}
+.brand-color{
+    color: red;
+    font-weight: 600;
+}
+
+/* home */
+#hero{
+    background-image: url(./images/background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: top 25% left 0%;
+    background-size: cover;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#hero h1{
+    color: white;
+    font-size: 70px;
+    padding-bottom:  15px;
+}
+@media (max-width: 575.98px) { 
+
+    #hero h1{
+        font-size: 45px;
+    }
+}
+#hero h4{
+    color: white;
+}
+@media (max-width: 575.98px){
+
+    #hero h4{
+        font-size: 17px;
+    }
+}
+
+/* about */
+.container .komiks{
+    text-decoration: none;
+}
+
+
+/* photos */
+#photos .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#photos .card{
+    cursor: pointer;
+    width: 20rem;
+    border: 1px solid rgb(180, 174, 174);
+    margin: 15px 0;
+}
+
+
+/* footer */
+#footer{
+    background: #8a0e29;
+    height: 60vh;
+}
+.ul-list{
+    list-style-type: none;
+}
+
+/* me */
+
+.me{
+    border-radius: 60%;
+    width: 30%;
+}
+
+/* asking qs */
+
+.container .card{
+    box-shadow: 5px 10px 8px pink;
+}
+.container .form{
+    box-shadow: 3px 10px 8px 10px coral;
+}
